@@ -1,12 +1,12 @@
-import React from "react";
+import { useState } from 'react'
 
-function Post () {
-
+interface IListElement {
+    titolo: string,
+}
+function ListElement(props: IListElement) {
     return (
-        <div>
-            
-        </div>
+        <li>{props.titolo}</li>
     )
 }
 
-export default Post;
+export default ListElement;

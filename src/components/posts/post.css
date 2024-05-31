@@ -1,0 +1,10 @@
+.post{
+    max-width: 500px;
+    max-height: 600px;
+    padding: 4px;
+    border-radius: 10%;
+    border-color: grey;
+    border-width: 10px;
+    border-style:solid;
+    background-color: black;
+}
